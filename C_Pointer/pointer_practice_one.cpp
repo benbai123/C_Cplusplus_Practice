@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/** This is the first practice of C/C++ pointer, it practice two concept:
+  * '&' is the reference operator and can be read as "address of"
+  * and
+  * '*' is the dereference operator and can be read as "value pointed by"
+  */
 int main () {
     // declare an int variable
     int num = 5;
