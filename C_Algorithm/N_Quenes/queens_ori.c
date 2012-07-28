@@ -4,8 +4,8 @@
 #include <stdbool.h>
 
 /**
- * The eight queens puzzle is the problem of
- * placing eight chess queens on an 8¡Ñ8 chessboard
+ * The n queens puzzle is the problem of
+ * placing n chess queens on an n¡Ñn chessboard
  * so that no two queens attack each other. 
  */
 
