@@ -1,0 +1,16 @@
+there are 4 queens in a 4 x 4 chessboard
+
+ answer(s): 
+
+put col[1] queen to row 2
+put col[2] queen to row 4
+put col[3] queen to row 1
+put col[4] queen to row 3
+
+
+put col[1] queen to row 3
+put col[2] queen to row 1
+put col[3] queen to row 4
+put col[4] queen to row 2
+
+
