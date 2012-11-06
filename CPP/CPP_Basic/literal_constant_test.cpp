@@ -2,8 +2,8 @@
 #include <iomanip>
 using namespace std;
 
-/** test unsigned keyword,
- * use char to test it since its range is fixed ( 1 byte )
+/** test literal constant,
+ * also try show their type and format them with cout
  */
 int main() {
 	cout << "\tvalue - type: " << endl << endl << "\t"
