@@ -3,6 +3,9 @@
 using namespace std;
 
 /** test switch statement
+ * 
+ * Note: the range part (e.g., 2 ... 35) is an extesion
+ *       and my not work with every compiler
  */
 void testSwitchNumber (int i);
 void testSwitchChar (char ch);
@@ -33,6 +36,8 @@ int main() {
 }
 
 void testSwitchNumber (int i) {
+	// Note: the range part (e.g., 2 ... 35) is an extesion
+	//       and my not work with every compiler
 	switch (i) {
 		case 1: // a specific value
 			cout << "i == 1" << endl;
@@ -47,6 +52,8 @@ void testSwitchNumber (int i) {
 	}
 }
 void testSwitchChar (char ch) {
+	// Note: the range part (e.g., 'b' ... 'z') is an extesion
+	//       and my not work with every compiler
 	switch (ch) {
 		case 'a': // a specific char
 			cout << "ch == 'a'" << endl;
