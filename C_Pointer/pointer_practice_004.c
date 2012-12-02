@@ -29,8 +29,8 @@ int doSubtract (int a, int b) {
 int doMultiple (int a, int b) {
      return a*b;
 }
-// the function that do the Devide operation
-int doDevide (int a, int b) {
+// the function that do the Divide operation
+int doDivide (int a, int b) {
      return a/b;
 }
 
@@ -45,7 +45,7 @@ int main () {
          &doPlus, '+',
          &doSubtract, '-',
          &doMultiple, '*',
-         &doDevide, '/'
+         &doDivide, '/'
     };
 
     // an infinite loop
