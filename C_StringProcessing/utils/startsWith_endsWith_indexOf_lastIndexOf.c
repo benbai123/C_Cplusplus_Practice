@@ -61,11 +61,9 @@ bool startsWith (char* base, char* str) {
 /** detecting whether base is ends with str
  */
 bool endsWith (char* base, char* str) {
-	char* pos;
 	int blen = strlen(base);
 	int slen = strlen(str);
-	pos = strstr(base, str);
-	return (pos - base + slen) == blen;
+	return (blen >= slen) && (0 == strcmp(base + blen - slen, str));
 }
 /** getting the first index of str in base
  */
