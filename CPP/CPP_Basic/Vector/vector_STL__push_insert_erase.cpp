@@ -3,7 +3,7 @@
 
 using namespace std;
 
-/** Test basic vector operation with array,
+/** Test basic vector operation with STL functions,
  *
  * From http://www.cplusplus.com/reference/vector/vector/
  *		Vectors are sequence containers representing arrays that can change in size.
