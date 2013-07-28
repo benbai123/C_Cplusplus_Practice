@@ -72,6 +72,7 @@ void testIterator () {
 	for (int i = 0; i < 5; i++) {
 		intVector.push_back(i);
 	}
+	// loop (begin to end) with iterator
 	for (vector<int>::iterator it = intVector.begin();
 		it != intVector.end();
 		it++) {
@@ -90,6 +91,7 @@ void testReverseIterator () {
 	for (int i = 0; i < 5; i++) {
 		intVector.push_back(i);
 	}
+	// loop (end to begin) with reverse iterator
 	for (vector<int>::reverse_iterator rit = intVector.rbegin();
 		rit != intVector.rend();
 		rit++) {
@@ -108,6 +110,7 @@ void testSizeMaxsizeCapacity () {
 	for (int i = 0; i < 5; i++) {
 		intVector.push_back(i);
 	}
+	// output size, max_size and capacity
 	cout << "real size: " << intVector.size() << endl;
 	cout << "max size: " << intVector.max_size() << endl;
 	cout << "capacity: " << intVector.capacity() << endl;
