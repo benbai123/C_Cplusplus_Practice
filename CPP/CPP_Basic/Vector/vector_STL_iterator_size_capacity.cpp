@@ -66,7 +66,7 @@ int main() {
 	return 0;
 }
 void testIterator () {
-	cout << "function testIterater" << endl;
+	cout << "function testIterator" << endl;
 	vector<int> intVector;
 	int cnt = 0;
 	for (int i = 0; i < 5; i++) {
