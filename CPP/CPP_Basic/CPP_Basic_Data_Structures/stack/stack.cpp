@@ -30,12 +30,13 @@ using namespace std;
  *		Adds a new element at the top of the stack, above its current top element.
  *		The content of this new element is initialized to a copy of x.
  *
- *		NOTE: push probably cause runtime error if stack is empty
  *
  * http://www.cplusplus.com/reference/stack/stack/pop/
  * pop: void pop ( );
  *		Removes the element on top of the stack, effectively reducing its size by one.
  *		The value of this element can be retrieved before being popped by calling member stack::top.
+ *
+ *		NOTE: pop probably cause runtime error if stack is empty
  *
  * http://www.cplusplus.com/reference/stack/stack/top/
  * top: value_type& top ( ); or const value_type& top ( ) const;
