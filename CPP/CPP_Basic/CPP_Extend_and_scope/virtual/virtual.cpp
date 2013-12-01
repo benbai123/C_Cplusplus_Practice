@@ -1,7 +1,15 @@
 #include <iostream>
 
 using namespace std;
-
+/** Use virtual keyword to define a function in a class that can be redefined in its derived class.
+ * The only valid declaration (virtual or non-virtual) is the declaration within first level Class
+ * (first level here means the base class),
+ * redefine it (add/remove virtual) in derived class will be ignored.
+ * Tested with Dev-C++ 4.9.9.2
+ * 
+ * Reference:
+ *		http://www.cplusplus.com/doc/tutorial/polymorphism/
+ */
 class Base {
 	public:
 		// declare funcOne as virtual
@@ -50,8 +58,14 @@ int main () {
 	dBase->funcTwo();
 	dFirst->funcOne();
 	dFirst->funcTwo();
+	// still can call non-virtual function from derived class pointer
+	// DerivedFirst* pFirst = &first;
+	// pFirst->funcTwo();
 	dSecond->funcOne();
 	dSecond->funcTwo();
+	// still can call non-virtual function from derived class pointer
+	// DerivedSecond* pSecond = &second;
+	// pSecond->funcTwo();
 	system("PAUSE");
 	return 0;
 }
