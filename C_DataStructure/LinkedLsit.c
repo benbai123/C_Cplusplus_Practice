@@ -369,7 +369,7 @@ void display (LinkedList* _this) {
 	 else {
 		printf("has %d items\n", size);
 		Node* node = _this->head;
-		for (i = 0; i < size; i++) {
+		for (i = 0; i < size-1; i++) {
 			if (i > 0)
 				printf(", ");
 			printf("%d", node->item);
