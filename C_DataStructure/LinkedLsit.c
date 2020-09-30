@@ -72,7 +72,7 @@ void addFirst (LinkedList* _this, int item);
  */
 void addLast (LinkedList* _this, int item);
 /** insert one node before another,
- * newNdoe, node and node->prev should not be null.
+ * newNode, node and node->prev should not be null.
  */
 void insertBefore (LinkedList* _this, Node* node, Node* newNode);
 /** get item from specific position
@@ -204,7 +204,7 @@ void addLast (LinkedList* _this, int item) {
 }
 
 /** insert one node before another,
- * newNdoe, node and node->prev should not be null.
+ * newNode, node and node->prev should not be null.
  */
 void insertBefore (LinkedList* _this, Node* node, Node* newNode) {
 	Node* prev = node->prev;
